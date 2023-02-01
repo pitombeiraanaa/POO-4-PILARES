@@ -1,0 +1,25 @@
+public class aviao extends veiculo{
+    private int porta;
+    private int janela;
+
+    public int getPorta() {
+        return porta;
+    }
+
+    public void setPorta(int porta) {
+        this.porta = porta;
+    }
+
+    public int getJanela() {
+        return janela;
+    }
+
+    public void setJanela(int janela) {
+        this.janela = janela;
+    }
+
+    @Override
+    public void imprime() {
+        System.out.println("O avião possui " + getPorta() + "portas e " + getJanela() + " janelas");       
+    }
+}

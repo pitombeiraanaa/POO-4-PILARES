@@ -1,0 +1,16 @@
+public class moto extends veiculo{
+    private int retrovisor;
+
+    public int getRetrovisor() {
+        return retrovisor;
+    }
+
+    public void setRetrovisor(int retrovisor) {
+        this.retrovisor = retrovisor;
+    }
+
+    @Override
+    public void imprime() {
+        System.out.println("A moto possui " + getRetrovisor() + " retrovisores");
+    }
+}

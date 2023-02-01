@@ -1,0 +1,25 @@
+public class Exercicio4Pilares {
+   public static void imprimeVeiculo(veiculo param){
+       param.imprime();
+   }
+    public static void main(String[] args) {
+        // criar uma classe veiculo com velocidade e quantidade de passageiros e um metodo abstrato imprime
+        // criar duas classes herdeiras, avião e moto
+        // encapsular os atributos de todas as classes
+        // implementar o metodo imprime nas 2 classes filhas 
+         
+        moto objMoto = new moto ();
+        aviao objAviao = new aviao ();
+        
+        objMoto.setQtdPassageiros(2);
+        objMoto.setRetrovisor(2);
+        objMoto.setVelocidade(80);
+        
+        objAviao.setPorta(3);
+        objAviao.setJanela(50);
+        
+        imprimeVeiculo(objMoto);
+        imprimeVeiculo(objAviao);   
+        
+    }
+}
