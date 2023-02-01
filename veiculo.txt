@@ -17,7 +17,10 @@ public abstract class veiculo {
         return qtdPassageiros;
     }
 
+
+
     public void setQtdPassageiros(int qtdPassageiros) {
         this.qtdPassageiros = qtdPassageiros;
     }
+    
 }

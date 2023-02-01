@@ -19,7 +19,8 @@ public class Exercicio4Pilares {
         objAviao.setJanela(50);
         
         imprimeVeiculo(objMoto);
-        imprimeVeiculo(objAviao);   
+        imprimeVeiculo(objAviao);
+           
         
     }
 }

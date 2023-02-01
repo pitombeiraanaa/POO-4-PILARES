@@ -18,8 +18,11 @@ public class aviao extends veiculo{
         this.janela = janela;
     }
 
+
+
     @Override
     public void imprime() {
         System.out.println("O avião possui " + getPorta() + "portas e " + getJanela() + " janelas");       
     }
+
 }
